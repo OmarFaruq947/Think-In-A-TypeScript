@@ -60,3 +60,31 @@ let isNumber: number = 101;
 ```js
 let isString: string = "omar faruq";
 ```
+
+4. Array: array is a special type of object in javaScript
+
+```js
+let num_array: number[] = [1, 2, 3, 4];
+```
+
+```js
+let str_array: string[] = ["omar", "faruq", "lincon hassan"];
+```
+
+```js
+let array: any[] = [1, 2, "omar", false];
+```
+
+```js
+let tuple1: [string, number] = ["omar", 5];
+```
+
+```js
+let tuple2: [string, boolean] = ["omar", false];
+```
+
+```
+crucial Note:
+1. tuple tack the only two value pair. it can be string-number, number-boolean, string-boolean.
+2. any type is not demand specific type. it can be any type, number, string, boolean etc.
+```
