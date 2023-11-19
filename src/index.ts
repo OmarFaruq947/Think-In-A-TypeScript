@@ -1,3 +1,6 @@
-let tuple2: [string, boolean] = ["omar", true];
-let tuple1: [string, number] = ["omar", 1];
-console.log(tuple1);
+enum secretCode {
+  East,
+  number = 125789,
+  token = "njnmkwpw_n@m",
+}
+console.log(secretCode.number);
