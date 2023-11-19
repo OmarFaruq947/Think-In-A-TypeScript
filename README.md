@@ -57,6 +57,7 @@ let isNumber:number = 101
 
 3. String: String is the character,which is placed dabble quotation
 
-```
+{
+
 let isString:string = "omar faruq"
-```
+}
