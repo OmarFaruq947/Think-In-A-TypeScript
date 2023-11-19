@@ -45,19 +45,18 @@ typescript is a programming language, it is a superset of JavaScript. it develop
 
 1. Boolean: Boolean value only provide true or false
 
-```
-let isBoolean:boolean = true
+```js
+let isBoolean: boolean = true;
 ```
 
 2. Number: Number is the all numeric values
 
-```
-let isNumber:number = 101
+```js
+let isNumber: number = 101;
 ```
 
 3. String: String is the character,which is placed dabble quotation
 
-{
-
-let isString:string = "omar faruq"
-}
+```js
+let isString: string = "omar faruq";
+```
