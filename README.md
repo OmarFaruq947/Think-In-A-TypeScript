@@ -40,3 +40,23 @@ typescript is a programming language, it is a superset of JavaScript. it develop
 
 - TypeScript is transpiled into JavaScript Using A compiler.
 - TypeScript being converted into JavaScript means it runs anywhere that JavaScript runs!
+
+### How many type of typescript? and with example.
+
+1. Boolean: Boolean value only provide true or false
+
+```
+let isBoolean:boolean = true
+```
+
+2. Number: Number is the all numeric values
+
+```
+let isNumber:number = 101
+```
+
+3. String: String is the character,which is placed dabble quotation
+
+```
+let isString:string = "omar faruq"
+```
