@@ -34,7 +34,8 @@ typescript is a programming language, it is a superset of JavaScript. it develop
 4. class
 5. modules
 6. interface
-7. compilations etc.
+7. typeScript is a portable
+8. compilations etc.
 
 ### what is TypeScript Compiler:
 
@@ -90,7 +91,7 @@ let tuple1: [string, number] = ["omar", 5];
 let tuple2: [string, boolean] = ["omar", false];
 ```
 
-6. Enum: Enum is a special class that represents a collection of constraints. it is **unchangeable variable**. enum alleys accept **string & numeric value**
+6. Enum: Enum is a special class that represents a collection of constraints. it is **unchangeable variable**. enum alleys accept **string & numeric value**. enum is not a good practice. So, you can avoid it.
 
 ```js
 enum secretCode {
@@ -102,10 +103,25 @@ console.log(secretCode.number);
 
 ```
 
-7. Any: any is a type that disables type checking and effectively allows all types to be used.
+7. Any: it is special type of typeScript. any is a type that disables type checking and effectively allows all types to be used.
 
 ```js
 let notSure: any = 4;
+```
+
+7. unKnown: unknown is a similar like any type, but safer alternative to any.
+
+```js
+let userInput: unknown;
+
+userInput = 5;
+userInput = "Hello, TypeScript";
+
+// The following line would result in a compilation error without type assertion
+let userName: string = userInput as string;
+
+console.log(userName.length); // OK, because we've asserted the type
+
 ```
 
 8. Void: The void type is often used as the return type of functions that do not return a value.
@@ -116,14 +132,14 @@ function soothing(): void {
 }
 ```
 
-9. Null & Undefined: null & undefined is a primitive types. it is a very important and confusing topics of javaScript.
+9. Null & Undefined:it is special type of typeScript. null & undefined is a primitive types. it is a very important and confusing topics of javaScript.
 
 ```js
 let u: undefined = undefined;
 let n: null = null;
 ```
 
-10. Never: The never type represents values that never occur. For example, a function that always throws an exception or never returns.
+10. Never:it is special type of typeScript. The never type represents values that never occur. For example, a function that always throws an exception or never returns.
 
 ```js
 function error(message: string): never {
@@ -138,3 +154,19 @@ function greet(person: { name: string, age: number }) {
   return "Hello " + person.name;
 }
 ```
+
+### Object Types of typescript
+
+1. Type Interface:
+
+### Typescript Operator
+
+In typescript, an operator can be classified into the following ways.
+
+- Arithmetic operators (+, -, \*, /, %, ++, --)
+- Comparison (Relational) Operator (==, ===, !=, !==, >, >=, <= )
+- Logical Operator (&&, ||, !)
+- Bitwise Operator (&, |, ^, ~, >>, <<, >>>)
+- Assignment Operators (=, +=, -=, \*=, /=, %=)
+- Ternary/Conditional Operator ( expression ? expression-1 : expression-2 )
+- Type Operator (in, delete, typeof, instanceof)

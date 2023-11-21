@@ -1,6 +1,3 @@
-enum secretCode {
-  East,
-  number = 125789,
-  token = "njnmkwpw_n@m",
-}
-console.log(secretCode.number);
+var age: number = 44; // number variable
+var name2: string = "Rahul"; // string variable
+var isUpdated: boolean = true; // Boolean variable
